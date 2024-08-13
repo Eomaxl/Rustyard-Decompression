@@ -26,7 +26,8 @@ Navigate to the project directory and build the project using Cargo, Rust’s pa
 bash
 Copy code
 cargo build --release
-Run the Application
+Run the Application <br>
+cargo run <zip_filename>
 
 #Once the build is complete, you can run the application with:
 
@@ -51,10 +52,10 @@ Copy code
 This command will extract all files and directories from example.zip to the current directory.
 
 # Project Structure
-src/
-main.rs: Entry point of the program.
-args.rs: Handles command-line argument parsing.
-extractor.rs: Contains the logic for extracting files from the ZIP archive and preserving Unix file permissions.
+src/ <br>
+main.rs: Entry point of the program.<br>
+args.rs: Handles command-line argument parsing.<br>
+extractor.rs: Contains the logic for extracting files from the ZIP archive and preserving Unix file permissions.<br>
 
 # Contributing
 Contributions are welcome! If you have any ideas, feel free to fork the repository and submit a pull request.
